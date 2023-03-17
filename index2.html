@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="gdsc2.css" />
+  </head>
+  <body>
+
+
+    <style>body{
+      font-family: "Lato", sans-serif;
+    } 
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: green;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Services</a>
+    </div>
+    
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+
+
+    <header>
+      <h1 class="text-center">welcome to the website</h1>
+
+      <p class="text-center" style="font-size: x-large">
+        My Name is Sherif Maged Iam sudent in aast<br />
+        the link to the college
+        <a href="https://aast.edu/en/campuses/southValley/">AASTMT</a>
+      </p>
+
+      <button class="text">read more</button>
+    </header>
+
+    <section class="menubar">
+      <div class="massive">
+        <a href="index.html">CONTENT BUY</a>
+      </div>
+      <div class="massive"><a href="index2.html">ABOUT ME</a></div>
+
+      <div class="links">
+        <a href=""
+          ><img src="images/Facebook-logo.png" style="width: 50px"
+        /></a>
+        <a href=""
+          ><img src="images/Instagram_logo_2016.svg.png" style="width: 50px"
+        /></a>
+        <a href=""
+          ><img src="images/Twitter-logo.svg.png" style="width: 50px"
+        /></a>
+      </div>
+    </section>
+
+    <section class="parent">
+      <section>
+        <table class="me">
+          <tr>
+            <td class="image">
+              <img src="images/pic01.jpg" style="width: 500px; height: 300px" />
+            </td>
+
+            <td>
+              <h2>Hi I am Sherif Maged a FRONT-END developer</h2>
+              <p class="begin">i love coding and Nescafe ❤️</p>
+            </td>
+          </tr>
+        </table>
+        <p class="seperate">
+          -----------------------------------------------------------------------------------------------------------------------------
+        </p>
+      </section>
+
+      <section class="ed">
+        <h2>EDUCATION</h2>
+        <ul class="begin">
+          <li>studies at AASTMT in Aswan</li>
+          <li>Graduation year</li>
+          <li>Member at GDSC</li>
+        </ul>
+      </section>
+      <p class="seperate">
+        -----------------------------------------------------------------------------------------------------------------------------
+      </p>
+
+      <section class="ex">
+        <h2>experiances</h2>
+
+        <table class="xx">
+          <tr>
+            <td>java</td>
+
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>html</td>
+
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>css</td>
+
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>js</td>
+
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </section>
+
+      <p class="seperate">
+        -----------------------------------------------------------------------------------------------------------------------------
+      </p>
+
+      <section class="ex">
+        <h2>My hobbies</h2>
+        <table class="xx">
+          <tr>
+            <td>games:</td>
+
+            <td>sekiro, valorant</td>
+          </tr>
+          <tr>
+            <td>sports:</td>
+
+            <td>basketball, golf</td>
+          </tr>
+          <tr>
+            <td>art:</td>
+
+            <td>drawing</td>
+          </tr>
+          <tr>
+            <td>gym</td>
+
+            <td></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="acconts">
+        <div><h3 class="contactme">contact me</h3></div>
+
+        <div class="ss">
+          <div><p class="home">home: 1234 Somewhere Road #87257</p></div>
+          <div><p class="home">phone: 01204013559</p></div>
+          <div>
+            <p class="home">e-mail: <a href="">magedsherif14@gmail.com</a></p>
+          </div>
+
+          <div class="co">
+            <a href="https://www.facebook.com/profile.php?id=100007389166286"
+              ><img src="images/Facebook-logo.png" style="width: 50px"
+            /></a>
+            <a href=""
+              ><img
+                src="images/Instagram_logo_2016.svg.png"
+                style="width: 50px"
+            /></a>
+            <a href=""
+              ><img src="images/Twitter-logo.svg.png" style="width: 50px"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

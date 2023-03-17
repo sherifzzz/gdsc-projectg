@@ -1,0 +1,138 @@
+body {
+  background: url("images/bg.jpg");
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+.text {
+  color: white;
+  background-color: transparent;
+  margin-left: 1050px;
+  height: 100px;
+  width: 200px;
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: white;
+  font-size: xx-large;
+  /* text-align: center; */
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 430px;
+  left: 245px;
+  bottom: 60px;
+  background: rgba(255, 255, 255, 0.175);
+  width: 1800px;
+}
+
+.massive {
+  /*background-color: lightgray;*/
+  font-size: 0.8rem;
+  font-size: x-large;
+  padding: 2rem;
+  display: flex;
+  justify-content: start;
+  display: inline-block;
+  color: white;
+}
+.massive a {
+  text-decoration: none;
+}
+.massive a:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+a {
+  color: lightskyblue;
+}
+
+.parent {
+  width: 1800px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  right: 0px;
+  top: 150px;
+}
+
+.image {
+}
+
+.me {
+  display: flex;
+  justify-content: space-between;
+  bottom: 100px;
+}
+
+.begin {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seperate {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.ed {
+  display: flex;
+  justify-content: space-around;
+}
+
+.xx {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+}
+
+.ex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.acconts {
+  background-color: rgb(245 244 244);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-top: 70px;
+  display: block;
+}
+
+.contactme {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.ss {
+  font-size: x-large;
+  text-align: center;
+}
+
+.co {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}

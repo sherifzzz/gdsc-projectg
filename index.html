@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="gdsc.css" />
+  </head>
+
+  <body>
+
+
+    <style>body{
+      font-family: "Lato", sans-serif;
+    } 
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: green;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Services</a>
+    </div>
+    
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+
+
+    <header>
+      <h1 class="text-center">welcome to the website</h1>
+
+      <p class="text-center" style="font-size: x-large">
+        My Naeme is Sherif Maged Iam sudent in aast<br />
+        the link to the college
+        <a href="https://aast.edu/en/campuses/southValley/">AASTMT</a>
+      </p>
+
+      <button class="text">read more</button>
+    </header>
+
+    <section class="menubar">
+      <div class="massive">
+        <a href="index1.html">CONTENT BUY</a>
+      </div>
+      <div class="massive"><a href="index2.html">ABOUT ME</a></div>
+
+      <div class="links">
+        <a href=""
+          ><img src="images/Facebook-logo.png" style="width: 50px"
+        /></a>
+        <a href=""
+          ><img src="images/Instagram_logo_2016.svg.png" style="width: 50px"
+        /></a>
+        <a href=""
+          ><img src="images/Twitter-logo.svg.png" style="width: 50px"
+        /></a>
+      </div>
+    </section>
+
+    <section class="parent">
+      <section class="april">
+        <p class="spec" style="margin-top: 145px">April 25,2017</p>
+
+        <div class="headline">
+          <h1 class="special1">picture of shoes</h1>
+
+          <p class="special">
+            Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+            facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+            amet nullam sed etiam veroeros.
+          </p>
+
+          <div class="image">
+            <img src="images/pic01.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <p class="paragraph">
+          Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis
+          in faucibus. Pellentesque venenatis dolor <br />
+          imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae
+          egestas enim auctor sit amet. Pellentesque leo <br />
+          mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu
+          massa lacinia malesuada et a elit. Donec urna <br />
+          ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris,
+          fringilla in aliquam at, euismod in lectus. <br />
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas. Curabitur sapien<br />
+          risus, commodo eget turpis at, elementum convallis enim turpis, lorem
+          ipsum dolor sit amet nullam. <br />
+        </p>
+      </section>
+
+      <section class="acconts">
+        <div class="form">
+          <p><label class="labels">Name</label></p>
+          <input
+            type="name"
+            maxlength="30"
+            class=""
+            id=""
+            value=""
+            style="height: 2rem; width: 27rem"
+          />
+          <br />
+
+          <p><label class="labels">email</label></p>
+          <input
+            type="email"
+            class=""
+            id=""
+            value=""
+            style="height: 2rem; width: 27rem"
+          />
+          <br />
+
+          <p><label class="labels">message:</label></p>
+          <textarea
+            id="w3review"
+            name="w3review"
+            rows="4"
+            cols="50"
+            style="height: 2rem"
+          ></textarea>
+          <br />
+
+          <div class="sendmessage">send message</div>
+          <br />
+        </div>
+
+        <div class="ss">
+          <div><p class="home">home: 1234 Somewhere Road #87257</p></div>
+          <div><p class="home">phone: 01204013559</p></div>
+          <div>
+            <p class="home">e-mail: <a href="">magedsherif14@gmail.com</a></p>
+          </div>
+
+          <a href=""
+            ><img src="images/Facebook-logo.png" style="width: 50px"
+          /></a>
+          <a href=""
+            ><img src="images/Instagram_logo_2016.svg.png" style="width: 50px"
+          /></a>
+          <a href=""
+            ><img src="images/Twitter-logo.svg.png" style="width: 50px"
+          /></a>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
